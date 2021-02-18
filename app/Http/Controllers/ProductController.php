@@ -4,10 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 
-use App\products\index;
-use App\products\display;
-use App\products\create;
-use App\products\show;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
@@ -19,12 +15,13 @@ class ProductController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $products = DB::select('select * from product');
+        $products = Product::where('group', $request ->query())->get();
       
         // $products= Post::orderBy('title','desc')->paginate(10);
-        return view('products.display')-> with('product',$products);
+       return view('products.display')-> with('products',$products);
+       
     }
 
     /**
@@ -56,9 +53,9 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        $product= Product::find($id);
+        $products= Product::find($id);
         
-        return view('products.show')-> with('product',$product);
+        return view('products.show')-> with('product',$products);
     }
 
     /**

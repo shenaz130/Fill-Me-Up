@@ -180,7 +180,7 @@
                 <a href="#"><img src="assets/img/portfolio/1.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/1.jpg">
+                    <a data-gall="myGallery" href="/product?group=veg"> 
                       <h4>Fruits & Vegetables</h4>
                      
                     </a>
@@ -197,7 +197,7 @@
                 <a href="#"><img src="assets/img/portfolio/2.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/2.jpg">
+                    <a data-gall="myGallery" href="/product?group=dairy">
                       <h4>Dairy Products</h4>
                      
                     </a>
@@ -214,7 +214,7 @@
                 <a href="#"><img src="assets/img/portfolio/3.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/3.jpg">
+                    <a data-gall="myGallery" href="/product?group=meat" >
                       <h4>Meat & sea food</h4>
                   
                     </a>
@@ -231,7 +231,7 @@
                 <a href="#"><img src="assets/img/portfolio/4.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/4.jpg">
+                    <a data-gall="myGallery" href="/product?group=canned">
                       <h4>Ready to eat meals</h4>
                       
                     </a>
@@ -248,7 +248,7 @@
                 <a href="#"><img src="assets/img/portfolio/5.jpg" alt="" /></a>
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/5.jpg">
+                    <a data-gall="myGallery" href="/product?group=canned">
                       <h4>Pasta rice Noodles</h4>
                   
                     </a>
@@ -265,7 +265,7 @@
                 <a href="#"><img src="assets/img/portfolio/6.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/6.jpg">
+                    <a data-gall="myGallery" href="/product?group=drink">
                       <h4>Drink Coffee& Tea</h4>
                     
                     </a>
@@ -282,7 +282,7 @@
                 <a href="/product"><img src="assets/img/portfolio/7.jpg" alt="" /></a>
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" type="submit" href="/product">
+                    <a data-gall="myGallery" href="/product?group=personal">
                       <h4>Home & personal care</h4>
                      </a>
                   </div>
@@ -298,7 +298,7 @@
                 <a href="#"><img src="assets/img/portfolio/8.jpg" alt="" /></a>
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/8.jpg">
+                    <a data-gall="myGallery" href="/product?group=baby">
                       <h4>Baby corner</h4>
                      
                     </a>
@@ -313,7 +313,7 @@
                 <a href="#"><img src="assets/img/portfolio/9.jpg" alt="" /></a>
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/9.jpg">
+                    <a data-gall="myGallery" href="/product?group=pet" >
                       <h4>Pet Items</h4>
                     </a>
                   </div>
